@@ -42,4 +42,12 @@
 {{ partial "micropub/single/repost.html" . }}
 {{end }}
 
+<div class="container-fluid">
+  <div>
+    <article class="text-center col-10 offset-1 text-center h-entry">
+      {{- partial "webmention_response.html" . -}}
+    </article>
+    </div>
+</div>
+
 {{end }}
