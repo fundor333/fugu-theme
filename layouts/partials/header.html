@@ -27,7 +27,7 @@
 
 
 
-    <picture alt="{{ .Site.Title }}" class=" h-card rounded img-fluid u-logo lazy shadow-lg bg-body-tertiary col-1" loading="lazy">
+    <picture alt="{{ .Site.Title }}" class=" rounded img-fluid u-logo lazy shadow-lg bg-body-tertiary col-1" loading="lazy">
 
       <source media="(max-width: 376px)"
           srcset="{{with $tiny.RelPermalink }}{{.}}{{ end }}">
@@ -42,7 +42,7 @@
           srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
 
       <img alt="{{ .Site.Title }}" title="{{ .Site.Title }}" src="{{ $src }}"
-          height="{{ $src.Height}}" width="{{ $src.Width }}" class=" h-card rounded img-fluid u-logo lazy shadow-lg bg-body-tertiary col-1">
+          height="{{ $src.Height}}" width="{{ $src.Width }}" class=" h-card rounded p-org u-url img-fluid u-logo lazy shadow-lg bg-body-tertiary col-1">
 
     </picture>
 
